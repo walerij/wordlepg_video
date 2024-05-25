@@ -1,7 +1,7 @@
 import pygame
 class Symbol(pygame.sprite.Sprite):
     def __init__(self, text, x, y):
-        self.font = pygame.font.SysFont("courier",72)
+        self.font = pygame.font.SysFont("courier",40)
         self.default_color = ((0,0,0),(201, 201, 197))
         self.correct_color = ((0,0,0),(14, 163, 11))
         self.wrong_color = ((0, 0, 0), (232, 28, 21))
